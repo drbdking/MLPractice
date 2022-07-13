@@ -13,9 +13,7 @@ $$
 
 ## Logistic Regression
 ### Approximation: 
-$$\hat{y} = \frac{1}{1 + e^{-(\vec{w} \cdot \vec{x} + b)}}
-
-$$
+$$\hat{y} = \frac{1}{1 + e^{-(\vec{w} \cdot \vec{x} + b)}}$$
 ### Linear model (also the decision boundary):
 $$f(x) = \vec{w} \cdot \vec{x} + b$$
 ### Sigmoid function
