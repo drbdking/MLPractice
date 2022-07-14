@@ -6,7 +6,10 @@ $$\hat{y} = wx + b$$
 ### Loss function (mean square error): 
 $$J = \frac{1}{N} \sum_{i=1}^n (\vec{w} \cdot \vec{x_i} + b - y_i)^2$$
 ### Update rules (gradient descent): 
-$$w_i = w_i - \frac{2}{N} \sum_{i=1}^n (\vec{w} \cdot \vec{x_i} + b - y_i) \cdot x_i \\ b = b - \frac{2}{N} \sum_{i=1}^n (\vec{w} \cdot \vec{x_i} + b - y_i)$$
+$$w_i = w_i - \frac{2}{N} \sum_{i=1}^n (\vec{w} \cdot \vec{x_i} + b - y_i) \cdot x_i$$ 
+</br>
+
+$$b = b - \frac{2}{N} \sum_{i=1}^n (\vec{w} \cdot \vec{x_i} + b - y_i)$$
 
 ## Logistic Regression
 ### Approximation: 
